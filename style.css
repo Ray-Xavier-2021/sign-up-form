@@ -1,0 +1,100 @@
+/* Universal Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex; 
+  width: 100%;
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 12px;
+}
+
+.container {
+  border-radius: 12px;
+  background-color: #313131;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* width: 600px; */
+  height: 300px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* SIGN UP FORM */
+.form-types {
+  /* border: 1px solid green; */
+  display: flex;
+  width: 100%;
+}
+
+#sign-up,
+#login {
+  border: 1px solid green;
+  background-color: #a8a8a8;
+  color: #fff;
+  flex-grow: 1;
+  height: 30px;
+  text-align: center;
+  padding: 6px;
+  cursor: pointer;
+}
+
+#sign-up:focus,
+#sign-up:hover,
+#sign-up:active,
+#sign-up.active {
+  background-color: springgreen;
+}
+
+#login:focus,
+#login:hover,
+#login:active,
+#login.active {
+  background-color: springgreen;
+}
+
+.title { 
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* Form */
+form input {
+  border: 1px solid #a8a8a8;
+  margin-bottom: 20px;
+  padding: 2px 0;
+  padding-left: 4px;
+}
+
+input:focus {
+  outline: none;
+}
+
+input[type='email'],
+input[type='password'],
+form button {
+  width: 100%;
+}
+
+form button {
+  background-color: springgreen;
+  border: none;
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #fff;
+  height: 40px;
+}
+
+/* LOGIN FORM */
